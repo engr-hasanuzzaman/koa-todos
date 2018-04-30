@@ -1,0 +1,42 @@
+{
+  "name": "@engr.hasanuzzaman/codecamp-node",
+  "version": "1.0.3",
+  "description": "freecodecamp backend course",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "hasanuzzaman",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engr-hasanuzzaman/freecodecamp-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engr-hasanuzzaman/freecodecamp-backend/issues"
+  },
+  "homepage": "https://github.com/engr-hasanuzzaman/freecodecamp-backend#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "concat-stream": "^1.6.2",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "mongodb": "^3.0.6",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3",
+    "strftime": "^0.10.0",
+    "stylus": "^0.54.5",
+    "through2-map": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}

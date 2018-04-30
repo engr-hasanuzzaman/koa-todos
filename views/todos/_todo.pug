@@ -1,0 +1,9 @@
+tr
+  td= todo.title
+  td(class= todo.status ? 'complete': 'pending')= todo.status ? 'completed' : 'pending'
+  td
+    - url = '/todos/' + id
+    a.btn.btn-success.btn-action(href= '/todos/' + id) show
+    a.btn.btn-info.btn-action(href= '/todos/markread/' + id) mart read
+    a.btn.btn-danger.btn-action(href= '/todos/delete/' + id) delete
+          

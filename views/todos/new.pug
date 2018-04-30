@@ -1,0 +1,24 @@
+extends layout.pug
+
+block content
+  div.form-container
+    form(action="/todos", method="post")
+      div.form-group
+        label(for="title") Title
+        input(type="text", name="title", placeholder="title" id='title' class='form-control' value=todo.title)
+      div.form-group  
+        label(for="content") Descriptoin
+        textarea(name="content", cols="30", rows="5" placeholder="title" id='content' class='form-control' value=todo.content)
+      div.form-group  
+        label(for="title") Complete with in
+        input(type="date", name="target_completion_time", placeholder="title" id='title' class='form-control' value=todo.target_completion_time)
+      div.form-group  
+        label(for="title") Category
+        select(name="category" class='form-control')
+          option(value="cat1" select=true) cat1
+          option(value="cat2") cat2
+          option(value="cat3") cat3
+          option(value="cat4") cat4
+          option(value="cat5") cat5
+      div.form-group  
+        button(type="submit", name = 'submit', class='btn btn-success form-control') submit

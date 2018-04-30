@@ -1,0 +1,43 @@
+/* Basic Style */
+.todo{
+  border: 1px solid #eee;
+  text-align: center;
+  color: brown;
+  background-color: aquamarine;
+}
+.title{
+  font-size: 15px;
+  margin: 5px;
+}
+.content{
+  font-size: 12px;
+}
+
+.todo_table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.todo_table td, .todo_table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.todo_table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.btn-action{
+  margin-right: 5px;
+}
+
+.form-container{
+  max-width: 400px;
+  margin: 10% auto auto;
+}
+
+.todo-show{
+  max-width: 400px;
+  margin: 10% auto auto;
+}

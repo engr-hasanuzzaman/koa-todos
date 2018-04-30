@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  div
+    table.todo_table
+      thead
+        tr
+          th Title
+          th Status
+          th Actions
+      tbody    
+        each todo, id in todos
+          include _todo.pug

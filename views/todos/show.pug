@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+  div(class = 'todo-show', 'data-id' = id)
+    p.h2= todo.title
+    p.content= todo.content
+    p.content= todo.created_at
+    p.content= todo.completed_at
+    p.content= todo.status ? 'This task has been completed' : ''
