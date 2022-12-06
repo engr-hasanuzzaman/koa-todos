@@ -18,9 +18,9 @@
   "homepage": "https://github.com/engr-hasanuzzaman/freecodecamp-backend#readme",
   "dependencies": {
     "@linclark/pkg": "^1.0.3",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "concat-stream": "^1.6.2",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "faker": "^4.1.0",
     "koa": "^2.5.0",
     "koa-body": "^2.5.0",
