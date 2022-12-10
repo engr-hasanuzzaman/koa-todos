@@ -20,7 +20,7 @@
     "@linclark/pkg": "^1.0.3",
     "body-parser": "^1.18.2",
     "concat-stream": "^1.6.2",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "koa": "^2.5.0",
     "koa-body": "^2.5.0",
